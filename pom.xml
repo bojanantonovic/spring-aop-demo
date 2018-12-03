@@ -5,11 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>ch.antonovic</groupId>
-    <artifactId>spring-aop-advice</artifactId>
+    <artifactId>spring-aop-demo</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
-        <spring-version>5.1.2.RELEASE</spring-version>
+        <spring-version>5.1.3.RELEASE</spring-version>
         <aspectj-version>1.9.2</aspectj-version>
     </properties>
 
