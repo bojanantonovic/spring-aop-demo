@@ -8,9 +8,15 @@ public class Dummy {
         System.out.println("This is bla()!");
     }
 
-    int moo() {
-        System.out.println("This is moo()!");
+    int five() {
+        System.out.println("This is five()!");
 
         return 5;
+    }
+
+    void mickey() {
+        System.out.println("This is mickey()!");
+
+        throw new RuntimeException("Exception form mickey()!");
     }
 }
