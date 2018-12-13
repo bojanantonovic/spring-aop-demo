@@ -32,10 +32,4 @@ public class AspectsForDummy {
         return value;
     }
 
-    @AfterThrowing(
-            pointcut="PointcutsForDummy.eachMethodOfDummy()",
-            throwing="e")
-    public void afterThrowing(Exception e) {
-        System.out.println(e);
-    }
 }
