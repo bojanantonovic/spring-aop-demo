@@ -4,8 +4,8 @@ public class Main {
 
     public static void main(String... args) {
 
-        try (final AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(MyConfiguration.class, Dummy.class, PointcutsForDummy.class, AspectsForDummy.class)) {
-            final Dummy dummy = context.getBean(Dummy.class);
+        try (final var context = new AnnotationConfigApplicationContext(MyConfiguration.class, Dummy.class, PointcutsForDummy.class, AspectsForDummy.class)) {
+            final var dummy = context.getBean(Dummy.class);
 
             dummy.foo();
             System.out.println();
